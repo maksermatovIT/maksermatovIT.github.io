@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-height: 100vh;
+    height: 100%;
+   background-image: url(./Без\ названия.jpg);
+   background-size: cover;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.logo{
+    width: 30%;
+    font-size: 25px;
+    color: rgb(52, 52, 190);
+    font-weight: 700;
+}
+nav{
+    width: 50%;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+.links a{
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+    width: 65px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    color: rgb(rgb(37, 86, 109), green, blue);
+}
+.links a:hover{
+    transition: 0.4s;
+    color: rgb(52, 52, 190);
+    text-decoration: underline;
+}
+.header_section{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 70px;
+}
+.img_div{
+    width: 50%;
+}
+.img_div img{
+    width: 100%;
+}
+.header_textdiv h1{
+    color: darkslategrey;
+    font-weight: 700;
+    text-align: center;
+}
+.header_textdiv h1 span{
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+.header_textdiv p{
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 15px;
+}
+.header_button{
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    border: none;
+    width: 200px;
+    height: 50px;
+    color: black;
+    font-size: 18px;
+    border-radius: 6px;
+    font-weight: 700;
+    background: rgb(120, 178, 98);
+    margin-top: 50px;
+}
+@media(max-width: 425px) {
+    nav{
+       width: 70%; 
+    }
+    .header_textdiv{
+        width: 50%;
+    }
+    .header_textdiv h1{
+       font-size: 18px;
+
+    }
+    .header_textdiv p{
+        font-size: 0.8rem;
+ 
+    }
+    .header_section{
+        gap: 5px;
+    }
+    .header_button{
+        width: 100px;
+        height: 30px;
+        font-size: 14px;
+        margin-top: 25px;
+    }
+}
+section{
+    padding: 70px;
+}
+section ul li {
+    margin: 47px 7px 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+section ul li{
+   text-align: center;
+}
